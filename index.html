@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Агрегатор иноСМИ · 09.04.2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Sans:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#faf9f6;--sf:#fff;--sf2:#f3f1ec;--bd:#ddd8ce;--tx:#1a1a1a;--tx2:#555;--tx3:#888;--link:#1565c0;--cons:#c62828;--lib:#1565c0;--state:#6a1b9a;--intl:#2e7d32;--hot:#d32f2f;--imp:#e65100;--new:#2e7d32}
+body{background:var(--bg);color:var(--tx);font-family:'IBM Plex Sans',sans-serif;font-size:14.5px;line-height:1.7}
+a{color:var(--link);text-decoration:none}a:hover{text-decoration:underline}
+header{background:#1a1a1a;color:#fff;padding:28px 20px 24px;text-align:center}
+header h1{font-family:'Literata',serif;font-size:1.8rem;font-weight:700;letter-spacing:-.02em}
+header .sub{font-size:.85rem;color:#aaa;font-weight:300;margin-top:2px}
+header .date{font-family:'IBM Plex Mono',monospace;font-size:.8rem;color:#777;margin-top:8px}
+.tb{display:flex;justify-content:center;gap:5px;padding:12px;background:#fff;border-bottom:1px solid var(--bd);position:sticky;top:0;z-index:100;flex-wrap:wrap}
+.tb button{background:var(--sf2);border:1px solid var(--bd);color:var(--tx2);padding:6px 14px;border-radius:5px;font-family:'IBM Plex Sans',sans-serif;font-size:.8rem;font-weight:500;cursor:pointer;transition:.15s}
+.tb button:hover,.tb button.on{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.w{max-width:900px;margin:0 auto;padding:20px 16px 50px}
+.reg{display:none}.reg.on{display:block}
+.rh{font-family:'Literata',serif;font-size:1.35rem;font-weight:700;padding:16px 0 12px;border-bottom:2px solid #1a1a1a;margin-bottom:20px}
+.c{background:var(--sf);border:1px solid var(--bd);border-radius:8px;margin-bottom:22px;overflow:hidden}
+.ch{padding:14px 18px 10px;border-bottom:1px solid var(--bd)}
+.ch .tg{font-family:'IBM Plex Mono',monospace;font-size:.62rem;text-transform:uppercase;letter-spacing:.08em;padding:2px 6px;border-radius:3px;font-weight:500;margin-right:6px}
+.tg-h{background:#fde;color:var(--hot)}.tg-i{background:#fff3e0;color:var(--imp)}.tg-n{background:#e8f5e9;color:var(--new)}
+.ch h3{font-family:'Literata',serif;font-size:1.1rem;font-weight:700;margin-top:6px;line-height:1.3}
+.ch .sr{margin-top:5px;font-size:.78rem;color:var(--tx3)}
+.ch .sr a{color:var(--link);font-weight:500}
+.sm{padding:12px 18px;background:var(--sf2);font-size:.85rem;color:var(--tx2);line-height:1.75;border-bottom:1px solid var(--bd)}
+.sm a{font-weight:500}
+.cm{padding:12px 18px;border-bottom:1px solid #eee}
+.cm:last-child{border-bottom:none}
+.cl{font-family:'IBM Plex Mono',monospace;font-size:.65rem;text-transform:uppercase;letter-spacing:.1em;font-weight:500;margin-bottom:3px;display:flex;align-items:center;gap:5px}
+.cl .d{width:7px;height:7px;border-radius:50%;display:inline-block}
+.d-c{background:var(--cons)}.d-l{background:var(--lib)}.d-s{background:var(--state)}.d-i{background:var(--intl)}
+.cm .o{font-size:.76rem;color:var(--tx3);margin-bottom:3px}
+.cm .t{font-size:.85rem;line-height:1.7}
+.cm .t a{font-size:.78rem;font-weight:500}
+footer{text-align:center;padding:24px;color:var(--tx3);font-size:.76rem;border-top:1px solid var(--bd)}
+@media(max-width:640px){header h1{font-size:1.4rem}.ch h3{font-size:1rem}.tb button{padding:5px 9px;font-size:.72rem}}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Агрегатор иноСМИ</h1>
+<div class="sub">Ключевые события и комментарии зарубежных обозревателей для ежедневного мониторинга</div>
+<div class="date">среда, 9 апреля 2026 · все новости за 7–9 апреля</div>
+</header>
+
+<div class="tb">
+<button class="on" onclick="sh('mideast')">🇮🇷 Ближний Восток</button>
+<button onclick="sh('russia')">🇷🇺 Россия</button>
+<button onclick="sh('us')">🇺🇸 США</button>
+<button onclick="sh('europe')">🇪🇺 Европа</button>
+<button onclick="sh('asia')">🇨🇳 Китай и Азия</button>
+<button onclick="sh('world')">🌍 Остальной мир</button>
+</div>
+
+<div class="w">
+
+<!-- ============ БЛИЖНИЙ ВОСТОК ============ -->
+<div class="reg on" id="r-mideast">
+<div class="rh">🇮🇷 Ближний Восток</div>
+
+<div class="c"><div class="ch">
+<span class="tg tg-h">горячее</span>
+<h3>Двухнедельное перемирие США–Иран при посредничестве Пакистана: условия противоречивы, Ормуз фактически закрыт</h3>
+<div class="sr">Источники: <a href="https://www.washingtonpost.com/national/2026/04/08/iran-israel-us-lebanon-latest-april-8-2026/5b988e08-3304-11f1-b85b-2cd751275c1d_story.html" target="_blank">Washington Post</a> · <a href="https://www.bloomberg.com/news/articles/2026-04-08/us-iran-ceasefire-claims-diverge-as-hormuz-stays-blocked" target="_blank">Bloomberg</a> · <a href="https://www.cbsnews.com/live-updates/iran-trump-ceasefire-strait-hormuz-israel-war-hezbollah-continues/" target="_blank">CBS News</a> · <a href="https://www.aljazeera.com/news/2026/4/8/us-iran-ceasefire-deal-what-are-the-terms-and-whats-next" target="_blank">Al Jazeera</a> · <a href="https://en.wikipedia.org/wiki/2026_Iran_war_ceasefire" target="_blank">Wikipedia</a></div>
+</div>
+<div class="sm">
+<strong>Обзор иноСМИ:</strong> Мировые СМИ констатируют заключение двухнедельного перемирия, однако единодушно подчёркивают его хрупкость. Стороны публикуют противоречивые версии условий: персидская версия 10-пунктного плана включает «принятие обогащения урана» (<a href="https://www.euronews.com/2026/04/08/us-and-iran-agree-to-two-week-truce-after-trump-pulls-back-on-threats" target="_blank">Euronews</a>), английская — нет. По данным <a href="https://www.cbsnews.com/live-updates/iran-trump-ceasefire-strait-hormuz-israel-war-hezbollah-continues/" target="_blank">CBS News</a>, Лэвитт заявила, что первоначальный 10-пунктный план Ирана был «буквально выброшен в мусорку». Ормуз по-прежнему фактически закрыт: <a href="https://www.bloomberg.com/news/articles/2026-04-08/us-iran-ceasefire-claims-diverge-as-hormuz-stays-blocked" target="_blank">Bloomberg</a> сообщает, что к утру четверга пролив остаётся заблокированным. По данным Lloyd's List, лишь 3–4 судна прошли через пролив 8 апреля (<a href="https://reason.com/2026/04/08/has-the-iran-war-ceasefire-already-ceased/" target="_blank">Reason/Lloyd's List</a>). Иранские ВМФ предупреждают суда по радио: «любое судно без разрешения будет уничтожено» (<a href="https://www.cbsnews.com/live-updates/iran-trump-ceasefire-strait-hormuz-israel-war-hezbollah-continues/" target="_blank">CBS/WSJ</a>). Первый раунд переговоров — суббота, Исламабад (<a href="https://www.bloomberg.com/news/articles/2026-04-08/us-iran-ceasefire-claims-diverge-as-hormuz-stays-blocked" target="_blank">Bloomberg</a>).
+</div>
+
+<div class="cm">
+<div class="cl"><span class="d d-c"></span> КОНСЕРВАТИВНЫЕ СМИ</div>
+<div class="o">Fox News · National Review</div>
+<div class="t">Хегсет: «ОПК Ирана полностью уничтожена» — 90% заводов, 80% ракетных объектов (<a href="https://www.foxnews.com/live-news/trump-us-iran-war-ceasefire-strait-hormuz-israel-live-updates-04-08-2026" target="_blank">Fox News, 08.04</a>). Иранский флот пытался поразить Lincoln сотнями ракет — «стреляли в Страну фантазий» (<a href="https://www.foxnews.com/live-news/trump-us-iran-war-ceasefire-strait-hormuz-israel-live-updates-04-08-2026" target="_blank">Fox News</a>). Dow +1 325 пунктов — «подтверждение стратегии Мира через силу» (<a href="https://www.foxnews.com/live-news/trump-us-iran-war-ceasefire-strait-hormuz-israel-live-updates-04-08-2026" target="_blank">Fox News</a>). Трамп: «обогащения урана не будет» (<a href="https://www.euronews.com/2026/04/08/us-and-iran-agree-to-two-week-truce-after-trump-pulls-back-on-threats" target="_blank">Euronews/Trump Truth Social</a>).</div>
+</div>
+
+<div class="cm">
+<div class="cl"><span class="d d-l"></span> ЛИБЕРАЛЬНЫЕ СМИ</div>
+<div class="o">Washington Post · PBS · CNN · NPR</div>
+<div class="t">WP: Иран закрыл Ормуз в ответ на израильские удары по Ливану (<a href="https://www.washingtonpost.com/national/2026/04/08/iran-israel-us-lebanon-latest-april-8-2026/5b988e08-3304-11f1-b85b-2cd751275c1d_story.html" target="_blank">WP, 08.04</a>). Нефть рухнула на 16% — крупнейшее падение с апреля 2020, но всё ещё на 30%+ выше довоенного (<a href="https://www.npr.org/2026/04/08/nx-s1-5776818/wall-street-stocks-oil-trump-iran-ceasefire" target="_blank">NPR, 08.04</a>). PBS: иранские пошлины за Ормуз — нарушение фундаментального принципа свободы мореплавания (<a href="https://www.pbs.org/newshour/world/irans-proposal-to-collect-tolls-in-the-strait-of-hormuz-violates-trade-norms" target="_blank">PBS, 08.04</a>). CNN: Вэнс назвал перемирие «хрупким» (<a href="https://www.cnn.com/2026/04/08/world/live-news/iran-war-trump-us-ceasefire" target="_blank">CNN Live, 08.04</a>).</div>
+</div>
+
+<div class="cm">
+<div class="cl"><span class="d d-s"></span> ГОСМЕДИА ИРАНА</div>
+<div class="o">Tasnim · IRNA · Fars</div>
+<div class="t">Совет нацбезопасности: Иран «заставил Америку принять свой 10-пунктный план» (<a href="https://www.cbsnews.com/live-updates/iran-trump-ceasefire-strait-hormuz-israel-war-hezbollah-continues/" target="_blank">CBS/Tasnim, 08.04</a>). Fars: утром два танкера прошли с разрешения Ирана, затем «проход приостановлен из-за израильских атак на Ливан» (<a href="https://www.cbsnews.com/live-updates/iran-trump-ceasefire-strait-hormuz-israel-war-hezbollah-continues/" target="_blank">CBS/Fars, 08.04</a>). Tasnim: если атаки на Ливан продолжатся — Иран выйдет из перемирия (<a href="https://www.cbsnews.com/live-updates/iran-trump-ceasefire-strait-hormuz-israel-war-hezbollah-continues/" target="_blank">CBS/Tasnim</a>). Иранские переговорщики заявили посредникам, что не приедут в Исламабад, если Ливан не будет включён (<a href="https://reason.com/2026/04/08/has-the-iran-war-ceasefire-already-ceased/" target="_blank">Reason/WSJ</a>).</div>
+</div>
+
+<div class="cm">
+<div class="cl"><span class="d d-i"></span> МЕЖДУНАРОДНЫЕ АГЕНТСТВА</div>
+<div class="o">Bloomberg · Reuters · CFR · Soufan Center</div>
+<div class="t">Bloomberg: Ормуз по-прежнему закрыт к утру четверга — ключевое условие перемирия не выполнено (<a href="https://www.bloomberg.com/news/articles/2026-04-08/us-iran-ceasefire-claims-diverge-as-hormuz-stays-blocked" target="_blank">Bloomberg, 08.04</a>). CFR: статус Ливана — главная угроза перемирию (<a href="https://www.cfr.org/articles/as-a-strait-of-hormuz-standoff-grows-will-trumps-fragile-iran-ceasefire-hold" target="_blank">CFR, 08.04</a>). Soufan Center: WSJ сообщил, что «разрыв между позициями слишком велик» перед дедлайном; Reuters — Тегеран «не покажет гибкости, пока Вашингтон требует капитуляции» (<a href="https://thesoufancenter.org/intelbrief-2026-april-8/" target="_blank">Soufan, 08.04</a>). Just Security: иранские пошлины за Ормуз незаконны по ст. 37 ЮНКЛОС (<a href="https://www.justsecurity.org/135899/strait-hormuz-tolls-crisis/" target="_blank">Just Security, 08.04</a>).</div>
+</div>
+
+</div>
+
+<div class="c"><div class="ch">
+<span class="tg tg-h">горячее</span>
+<h3>«Операция Вечная тьма»: Израиль нанёс крупнейший удар по Ливану — 254 погибших за день</h3>
+<div class="sr">Источники: <a href="https://www.pbs.org/newshour/world/israel-says-iran-ceasefire-doesnt-apply-to-lebanon-and-strikes-central-beirut-without-warning" target="_blank">PBS</a> · <a href="https://www.nbcnews.com/world/lebanon/lebanon-israel-attack-iran-ceasefire-hezbollah-rcna267260" target="_blank">NBC News</a> · <a href="https://www.axios.com/2026/04/08/lebanon-attacks-israel-iran-ceasfire" target="_blank">Axios</a> · <a href="https://www.timesofisrael.com/idf-launches-largest-airstrikes-yet-against-hezbollah-after-truce-with-iran/" target="_blank">Times of Israel</a></div>
+</div>
+<div class="sm">
+<strong>Обзор иноСМИ:</strong> Западные СМИ в целом шокированы масштабом ударов, нанесённых через часы после объявления перемирия. <a href="https://www.nbcnews.com/world/lebanon/lebanon-israel-attack-iran-ceasefire-hezbollah-rcna267260" target="_blank">NBC</a>: ЦАХАЛ провёл «самую мощную атаку за всю войну» — 50 истребителей, 100+ целей за 10 минут, центральный Бейрут без предупреждения. <a href="https://www.axios.com/2026/04/08/lebanon-attacks-israel-iran-ceasfire" target="_blank">Axios</a>: Вэнс признал «обоснованное недопонимание» — Иран думал, что Ливан включён, а США не обещали этого. <a href="https://www.pbs.org/newshour/world/israel-says-iran-ceasefire-doesnt-apply-to-lebanon-and-strikes-central-beirut-without-warning" target="_blank">PBS/AP</a>: перемещённые в Бейруте начали паковать вещи для возвращения домой — и были остановлены заявлением Нетаньяху. Минздрав Ливана: 182+ убитых, 890 раненых (<a href="https://www.timesofisrael.com/liveblog-april-08-2026/" target="_blank">ToI</a>). С 2 марта — 1 739 погибших, 5 873 раненых, более 1,2 млн перемещённых.
+</div>
+
+<div class="cm">
+<div class="cl"><span class="d d-c"></span> КОНСЕРВАТИВНЫЕ СМИ</div>
+<div class="o">Times of Israel · Fox News</div>
+<div class="t">Нетаньяху: «крупнейший удар по Хезболле со времён операции с пейджерами» (<a href="https://www.timesofisrael.com/liveblog-april-08-2026/" target="_blank">ToI, 08.04</a>). ЦАХАЛ: «наше предположение — война с Ираном возобновится» (<a href="https://reason.com/2026/04/08/has-the-iran-war-ceasefire-already-ceased/" target="_blank">Reason/Yedioth, 08.04</a>). Нетаньяху: «наш палец на спусковом крючке» (<a href="https://reason.com/2026/04/08/has-the-iran-war-ceasefire-already-ceased/" target="_blank">Reason</a>).</div>
+</div>
+
+<div class="cm">
+<div class="cl"><span class="d d-l"></span> ЛИБЕРАЛЬНЫЕ СМИ</div>
+<div class="o">PBS · NBC News · Washington Post</div>
+<div class="t">MedGlobal: «Это не целевые удары — тотальный хаос» (<a href="https://www.nbcnews.com/world/lebanon/lebanon-israel-attack-iran-ceasefire-hezbollah-rcna267260" target="_blank">NBC, 08.04</a>). AP: обугленные тела на перекрёстке Корниш аль-Мазраа (<a href="https://www.pbs.org/newshour/world/israel-says-iran-ceasefire-doesnt-apply-to-lebanon-and-strikes-central-beirut-without-warning" target="_blank">PBS/AP, 08.04</a>). Минсоцразвития: «Половина перемещённых — в зоне ударов» (<a href="https://www.pbs.org/newshour/world/israel-says-iran-ceasefire-doesnt-apply-to-lebanon-and-strikes-central-beirut-without-warning" target="_blank">PBS, 08.04</a>). ООН Тюрк: масштаб «не поддаётся осмыслению» (<a href="https://www.aljazeera.com/news/liveblog/2026/4/9/iran-war-live-israel-kills-254-in-lebanon-shaking-trump-tehran-ceasefire" target="_blank">AJ, 09.04</a>).</div>
+</div>
+
+<div class="cm">
+<div class="cl"><span class="d d-i"></span> МЕЖДУНАРОДНЫЕ АГЕНТСТВА</div>
+<div class="o">Axios · Al Jazeera · Reuters</div>
+<div class="t">Axios: Израиль предложил «сдержать себя» в Ливане на время переговоров (<a href="https://www.axios.com/2026/04/08/lebanon-attacks-israel-iran-ceasfire" target="_blank">Axios, 08.04</a>). Египет: «преднамеренный саботаж» перемирия (<a href="https://www.axios.com/2026/04/08/lebanon-attacks-israel-iran-ceasfire" target="_blank">Axios</a>). Арабская Лига: Израиль «настойчиво стремится саботировать» сделку (<a href="https://www.aljazeera.com/news/liveblog/2026/4/9/iran-war-live-israel-kills-254-in-lebanon-shaking-trump-tehran-ceasefire" target="_blank">AJ, 09.04</a>). Хезболла: «на пороге великой исторической победы» (<a href="https://www.timesofisrael.com/idf-launches-largest-airstrikes-yet-against-hezbollah-after-truce-with-iran/" target="_blank">ToI, 08.04</a>). КСИР: «если агрессия не прекратится — мы выполним свой долг» (<a href="https://www.timesofisrael.com/liveblog-april-08-2026/" target="_blank">ToI, 08.04</a>).</div>
+</div>
+
+</div>
+</div>
+
+<!-- ============ РОССИЯ ============ -->
+<div class="reg" id="r-russia">
+<div class="rh">🇷🇺 Россия</div>
+
+<div class="c"><div class="ch">
+<span class="tg tg-h">горячее</span>
+<h3>Украина наращивает удары по нефтяной инфраструктуре РФ; ПВО перенапряжена; кризис комплектования</h3>
+<div class="sr">Источники: <a href="https://www.kyivpost.com/post/73373" target="_blank">ISW/Kyiv Post, 07.04</a> · <a href="https://www.aljazeera.com/news/2026/4/7/three-civilians-killed-in-both-russia-ukraine-following-drone-attacks" target="_blank">Al Jazeera, 07.04</a> · <a href="https://www.russiamatters.org/news/russia-ukraine-war-report-card/russia-ukraine-war-report-card-april-8-2026" target="_blank">Russia Matters, 08.04</a></div>
+</div>
+<div class="sm">
+<strong>Обзор иноСМИ:</strong> ISW констатирует интенсификацию украинской кампании против нефтеинфраструктуры: Усть-Луга атакована 5 раз за 10 дней (<a href="https://www.kyivpost.com/post/73373" target="_blank">ISW, 07.04</a>). По данным Reuters, 40% нефтеэкспортного потенциала РФ приостановлено после ударов по трём крупнейшим западным портам (<a href="https://www.russiamatters.org/news/russia-ukraine-war-report-card/russia-ukraine-war-report-card-april-1-2026" target="_blank">Russia Matters</a>). В ночь на 9 апреля атакован нефтепроводный узел в Краснодарском крае (<a href="https://www.ukrinform.net/block-lastnews" target="_blank">Ukrinform, 09.04</a>). ISW: «Россия не может рекрутировать достаточно контрактников» — рязанский губернатор обязал предприятия выставлять квоты на мобилизацию (<a href="https://www.kyivpost.com/post/73373" target="_blank">ISW, 07.04</a>). Kyiv Independent: Украина вывела из строя последний паром в Керченском проливе (<a href="https://kyivindependent.com/" target="_blank">KI, 08.04</a>). Общие потери ВС РФ: ~1 307 540 к 9 апреля (<a href="https://www.ukrinform.net/block-lastnews" target="_blank">Ukrinform</a>).
+</div>
+
+<div class="cm">
+<div class="cl"><span class="d d-l"></span> ЛИБЕРАЛЬНЫЕ СМИ</div>
+<div class="o">ISW / Kyiv Post · CNN · Al Jazeera</div>
+<div class="t">ISW: «украинская кампания эксплуатирует перенапряжённую российскую ПВО и наносит значительный ущерб экспортным возможностям» (<a href="https://www.kyivpost.com/post/73373" target="_blank">ISW, 07.04</a>). Российские милблогеры критикуют неэффективность ПВО (<a href="https://www.kyivpost.com/post/73373" target="_blank">ISW</a>). Al Jazeera: взаимные удары 7 апреля — 7 погибших на Украине, 3 в России, включая семью с 12-летним сыном во Владимирской области (<a href="https://www.aljazeera.com/news/2026/4/7/three-civilians-killed-in-both-russia-ukraine-following-drone-attacks" target="_blank">AJ, 07.04</a>).</div>
+</div>
+
+<div class="cm">
+<div class="cl"><span class="d d-i"></span> МЕЖДУНАРОДНЫЕ АГЕНТСТВА</div>
+<div class="o">Russia Matters · Reuters</div>
+<div class="t">Russia Matters: за 4 недели (3–31 марта) Россия потеряла 12 кв. миль — впервые отрицательная динамика. За неделю 24–31 марта Россия набрала 17 кв. миль — признак весеннего наступления (<a href="https://www.russiamatters.org/news/russia-ukraine-war-report-card/russia-ukraine-war-report-card-april-8-2026" target="_blank">RM, 08.04</a>). 53% россиян поддерживают начало переговоров, 38% — продолжение операции (опрос «Русское поле», февраль 2026) (<a href="https://www.russiamatters.org/news/russia-ukraine-war-report-card/russia-ukraine-war-report-card-april-1-2026" target="_blank">RM, 01.04</a>).</div>
+</div>
+
+</div>
+
+<div class="c"><div class="ch">
+<span class="tg tg-i">важное</span>
+<h3>Пасхальное перемирие отвергнуто; переговоры с Виткоффом — по видеосвязи; ультиматум по Донбассу</h3>
+<div class="sr">Источники: <a href="https://www.aljazeera.com/news/2026/4/7/three-civilians-killed-in-both-russia-ukraine-following-drone-attacks" target="_blank">Al Jazeera, 07.04</a> · <a href="https://www.aljazeera.com/news/2026/4/1/russia-claims-to-take-full-control-of-ukraines-luhansk-region" target="_blank">Al Jazeera, 01.04</a> · <a href="https://www.pbs.org/newshour/tag/ukraine-war" target="_blank">PBS</a></div>
+</div>
+<div class="sm">
+<strong>Обзор иноСМИ:</strong> Зеленский: «Мы неоднократно предлагали России перемирие на Пасху. Для них все времена одинаковы. Ничто не свято» (<a href="https://www.aljazeera.com/news/2026/4/7/three-civilians-killed-in-both-russia-ukraine-following-drone-attacks" target="_blank">AJ, 07.04</a>). После предложения — Россия ответила 339 дронами за ночь (<a href="https://www.aljazeera.com/news/2026/4/1/russia-claims-to-take-full-control-of-ukraines-luhansk-region" target="_blank">AJ, 01.04</a>). PBS: мирные переговоры «фактически зашли в тупик» — «Трамп теряет интерес, а война с Ираном ослабляет давление на Россию» (<a href="https://www.pbs.org/newshour/tag/ukraine-war" target="_blank">PBS</a>). США отложили раунд переговоров Россия–Украина, запланированный на эту неделю, из-за войны на Ближнем Востоке (<a href="https://www.nbcnews.com/world/russia-ukraine-news" target="_blank">NBC</a>).
+</div>
+
+<div class="cm">
+<div class="cl"><span class="d d-l"></span> ЛИБЕРАЛЬНЫЕ СМИ</div>
+<div class="t">Al Jazeera: Пескову заявил, что Зеленский должен был «вчера» принять решение о выводе войск из Донбасса. Кремль дал двухмесячный ультиматум — Зеленский: «Кто может поверить, что Россия захватит остаток Донбасса за 2 месяца?» (<a href="https://www.aljazeera.com/news/2026/4/1/russia-claims-to-take-full-control-of-ukraines-luhansk-region" target="_blank">AJ, 01.04</a>). NBC: поставки американского оружия, особенно ПВО, будут отложены — «Вашингтон отдаёт приоритет союзникам на Ближнем Востоке» (<a href="https://www.nbcnews.com/world/russia-ukraine-news" target="_blank">NBC</a>).</div>
+</div>
+
+</div>
+
+<div class="c"><div class="ch">
+<span class="tg tg-n">новое</span>
+<h3>Утечка: Венгрия координировала с Кремлём блокировку евроинтеграции Украины</h3>
+<div class="sr">Источники: <a href="https://kyivindependent.com/" target="_blank">Kyiv Independent, 08.04</a></div>
+</div>
+<div class="sm">
+<strong>Обзор:</strong> Kyiv Independent опубликовал записи, в которых Лавров советует венгерскому коллеге: «Иногда добросовестный прямой шантаж — лучший вариант» (<a href="https://kyivindependent.com/" target="_blank">KI, 08.04</a>). Орбан заблокировал кредит ЕС Украине и заявил, что у него «много карт на руках» (<a href="https://www.nbcnews.com/world/russia-ukraine-news" target="_blank">NBC</a>).
+</div>
+<div class="cm">
+<div class="cl"><span class="d d-l"></span> ЛИБЕРАЛЬНЫЕ СМИ</div>
+<div class="t">Kyiv Independent: новые детали и утечка аудио показывают, как «Венгрия координировалась с Кремлём, чтобы застопорить вступление Украины в ЕС» (<a href="https://kyivindependent.com/" target="_blank">KI, 08.04</a>).</div>
+</div>
+</div>
+</div>
+
+<!-- ============ США ============ -->
+<div class="reg" id="r-us">
+<div class="rh">🇺🇸 США</div>
+
+<div class="c"><div class="ch">
+<span class="tg tg-h">горячее</span>
+<h3>Вэнс, Виткофф и Кушнер летят в Исламабад; Трамп критикует НАТО; импичмент Хегсета</h3>
+<div class="sr">Источники: <a href="https://www.bloomberg.com/news/articles/2026-04-08/us-iran-ceasefire-claims-diverge-as-hormuz-stays-blocked" target="_blank">Bloomberg, 08.04</a> · <a href="https://www.nbcnews.com/politics/trump-administration/live-blog/trump-defense-budget-gallego-taxes-congress-dhs-shutdown-live-updates-rcna266652" target="_blank">NBC News, 06.04</a> · <a href="https://www.foxnews.com/live-news/trump-us-iran-war-ceasefire-strait-hormuz-israel-live-updates-04-08-2026" target="_blank">Fox News, 08.04</a></div>
+</div>
+<div class="sm">
+<strong>Обзор иноСМИ:</strong> Белый дом подтвердил отправку делегации Вэнс–Виткофф–Кушнер в Исламабад (<a href="https://www.bloomberg.com/news/articles/2026-04-08/us-iran-ceasefire-claims-diverge-as-hormuz-stays-blocked" target="_blank">Bloomberg</a>). Трамп: союзники НАТО «были испытаны и провалились»; Рютте признал «разочарование» (<a href="https://www.cnn.com/2026/04/08/world/live-news/iran-war-trump-us-ceasefire" target="_blank">CNN, 08.04</a>). Конгрессвумен Ансари (Аризона) внесла статьи об импичменте Хегсета: «Только Конгресс имеет право объявлять войну, а не президент-изгой или его лакеи» — обвинения: бомбардировка школы в Минабе, умышленные удары по гражданской инфраструктуре (<a href="https://www.nbcnews.com/politics/trump-administration/live-blog/trump-defense-budget-gallego-taxes-congress-dhs-shutdown-live-updates-rcna266652" target="_blank">NBC, 06.04</a>). Фуллер победил на спецвыборах в округе Грин; Трамп назвал Грин «предательницей» (<a href="https://www.nbcnews.com/politics/trump-administration/live-blog/trump-defense-budget-gallego-taxes-congress-dhs-shutdown-live-updates-rcna266652" target="_blank">NBC</a>). Секвестр расходов на 2027 ФГ — с 1 октября 2026 (<a href="https://www.nbcnews.com/politics/trump-administration/live-blog/trump-defense-budget-gallego-taxes-congress-dhs-shutdown-live-updates-rcna266652" target="_blank">NBC</a>).
+</div>
+
+<div class="cm">
+<div class="cl"><span class="d d-c"></span> КОНСЕРВАТИВНЫЕ СМИ</div>
+<div class="o">Fox News</div>
+<div class="t">Fox: Лэвитт — перемирие «победа» для США (<a href="https://www.foxnews.com/live-news/trump-us-iran-war-ceasefire-strait-hormuz-israel-live-updates-04-08-2026" target="_blank">Fox, 08.04</a>). Рынки взлетели: Dow +2,8%, S&P +2,5%, Nasdaq +2,8%, Russell 2000 +3% (<a href="https://www.foxnews.com/live-news/trump-us-iran-war-ceasefire-strait-hormuz-israel-live-updates-04-08-2026" target="_blank">Fox</a>). Импичмент Хегсета — «бессмысленный жест меньшинства».</div>
+</div>
+
+<div class="cm">
+<div class="cl"><span class="d d-l"></span> ЛИБЕРАЛЬНЫЕ СМИ</div>
+<div class="o">NBC · CNN · NPR</div>
+<div class="t">NBC: Трамп угрожал журналистам, написавшим о сбитом F-15, тюрьмой (<a href="https://www.nbcnews.com/politics/trump-administration/live-blog/trump-defense-budget-gallego-taxes-congress-dhs-shutdown-live-updates-rcna266652" target="_blank">NBC, 06.04</a>). CNN: Трамп получает двухминутные «видеоотчёты» о войне, сфокусированные на успехах — «не видит полной картины» (<a href="https://www.cnn.com/2026/04/06/world/live-news/iran-war-us-trump-oil" target="_blank">CNN, 06.04</a>). NPR: бензин в США выше $4/галлон — потребители пострадали (<a href="https://www.npr.org/2026/04/08/nx-s1-5776818/wall-street-stocks-oil-trump-iran-ceasefire" target="_blank">NPR, 08.04</a>).</div>
+</div>
+
+</div>
+</div>
+
+<!-- ============ ЕВРОПА ============ -->
+<div class="reg" id="r-europe">
+<div class="rh">🇪🇺 Европа</div>
+
+<div class="c"><div class="ch">
+<span class="tg tg-h">горячее</span>
+<h3>Еврокомиссия: «Даже если мир наступит завтра — нормальности не будет». Энергокризис углубляется</h3>
+<div class="sr">Источники: <a href="https://www.euronews.com/business/2026/04/01/eu-warns-oil-and-gas-prices-wont-immediately-return-to-normal-even-if-the-iran-war-ends" target="_blank">Euronews, 01.04</a> · <a href="https://energy.ec.europa.eu/news/commission-eu-countries-and-industry-meet-assess-oil-market-situation-2026-04-08_en" target="_blank">EU Commission, 08.04</a> · <a href="https://www.cnbc.com/2026/04/01/oil-price-iea-fatih-birol-brent-iran-strait-hormuz.html" target="_blank">CNBC/IEA</a> · <a href="https://oilprice.com/Latest-Energy-News/World-News/Europe-Braces-for-Prolonged-Energy-Crisis-as-Supplies-Tighten.html" target="_blank">OilPrice</a></div>
+</div>
+<div class="sm">
+<strong>Обзор иноСМИ:</strong> Еврокомиссар Йоргенсен: «Даже если мир наступит завтра, мы не вернёмся к нормальности в обозримом будущем» (<a href="https://www.euronews.com/business/2026/04/01/eu-warns-oil-and-gas-prices-wont-immediately-return-to-normal-even-if-the-iran-war-ends" target="_blank">Euronews, 01.04</a>). 8 апреля ЕК собрала Oil Coordination Group — промышленники заявили о стабильности поставок «на данный момент», но выразили обеспокоенность длительностью конфликта (<a href="https://energy.ec.europa.eu/news/commission-eu-countries-and-industry-meet-assess-oil-market-situation-2026-04-08_en" target="_blank">EC, 08.04</a>). IEA Бирол: «Крупнейший энергокризис в истории. Апрель будет гораздо хуже марта — в марте ещё приходили грузы, отправленные до войны. В апреле — ничего» (<a href="https://www.cnbc.com/2026/04/01/oil-price-iea-fatih-birol-brent-iran-strait-hormuz.html" target="_blank">CNBC, 01.04</a>). 32 страны IEA выпустили рекордные 400 млн баррелей из стратрезервов (<a href="https://www.cnbc.com/2026/04/01/oil-price-iea-fatih-birol-brent-iran-strait-hormuz.html" target="_blank">CNBC</a>). Газ +70%, нефть +60%, дизель выше €2,30/литр (<a href="https://www.euronews.com/business/2026/04/01/eu-warns-oil-and-gas-prices-wont-immediately-return-to-normal-even-if-the-iran-war-ends" target="_blank">Euronews</a>). 4 аэропорта Италии ограничили заправку авиакеросином (<a href="https://time.com/article/2026/04/05/strait-of-hormuz-fuel-rationing-oil/" target="_blank">Time, 05.04</a>). ≥5 стран требуют windfall tax (<a href="https://www.euronews.com/business/2026/04/01/eu-warns-oil-and-gas-prices-wont-immediately-return-to-normal-even-if-the-iran-war-ends" target="_blank">Euronews</a>). ЕС подтвердил запрет на российский газ: зависимость — с 45% до 10%, цель — ноль (<a href="https://www.euronews.com/business/2026/04/01/eu-warns-oil-and-gas-prices-wont-immediately-return-to-normal-even-if-the-iran-war-ends" target="_blank">Euronews</a>).
+</div>
+
+<div class="cm">
+<div class="cl"><span class="d d-i"></span> МЕЖДУНАРОДНЫЕ АГЕНТСТВА</div>
+<div class="t">IEA: главная проблема — дефицит авиакеросина и дизеля; «уже ощущается в Азии, к апрелю–маю дойдёт до Европы» (<a href="https://www.cnbc.com/2026/04/01/oil-price-iea-fatih-birol-brent-iran-strait-hormuz.html" target="_blank">CNBC/IEA, 01.04</a>). Time: бензин выше $6/галлон в Калифорнии; авиакеросин в США +95% (<a href="https://time.com/article/2026/04/05/strait-of-hormuz-fuel-rationing-oil/" target="_blank">Time, 05.04</a>). EU Commission: «промышленники подчеркнули важность прозрачности и координации на уровне ЕС» (<a href="https://energy.ec.europa.eu/news/commission-eu-countries-and-industry-meet-assess-oil-market-situation-2026-04-08_en" target="_blank">EC, 08.04</a>).</div>
+</div>
+
+</div>
+</div>
+
+<!-- ============ КИТАЙ И АЗИЯ ============ -->
+<div class="reg" id="r-asia">
+<div class="rh">🇨🇳 Китай и Азия</div>
+
+<div class="c"><div class="ch">
+<span class="tg tg-i">важное</span>
+<h3>Подготовка к саммиту Трамп–Си 14–15 мая: торговый совет без инвестиций</h3>
+<div class="sr">Источники: <a href="https://www.bloomberg.com/news/articles/2026-04-08/greer-stresses-china-trade-over-investment-before-trump-xi-meet" target="_blank">Bloomberg, 08.04</a> · <a href="https://www.scmp.com/news/us/article/3349312/only-virtual-talks-no-new-investment-push-xi-trump-summit-greer" target="_blank">SCMP, 08.04</a></div>
+</div>
+<div class="sm">
+<strong>Обзор:</strong> Торгпред Грир: «Мы ищем механизм для определения нечувствительных товаров» (<a href="https://www.bloomberg.com/news/articles/2026-04-08/greer-stresses-china-trade-over-investment-before-trump-xi-meet" target="_blank">Bloomberg, 08.04</a>). Грир подтвердил SCMP поездку с Трампом 14–15 мая (<a href="https://www.scmp.com/news/us/article/3349312/only-virtual-talks-no-new-investment-push-xi-trump-summit-greer" target="_blank">SCMP, 08.04</a>). Подготовка — виртуально; визит в Пекин перед саммитом не планируется (<a href="https://www.scmp.com/news/us/article/3349312/only-virtual-talks-no-new-investment-push-xi-trump-summit-greer" target="_blank">SCMP</a>). Лэвитт подтвердила участие Китая в посредничестве перемирия с Ираном (<a href="https://www.cbsnews.com/live-updates/iran-trump-ceasefire-strait-hormuz-israel-war-hezbollah-continues/" target="_blank">CBS, 08.04</a>).
+</div>
+<div class="cm">
+<div class="cl"><span class="d d-c"></span> КОНСЕРВАТИВНЫЕ СМИ</div>
+<div class="t">Bloomberg: Грир продвигает торговый совет, но без «широкого инвестиционного толчка» — знак осторожного подхода (<a href="https://www.bloomberg.com/news/articles/2026-04-08/greer-stresses-china-trade-over-investment-before-trump-xi-meet" target="_blank">Bloomberg, 08.04</a>).</div>
+</div>
+<div class="cm">
+<div class="cl"><span class="d d-l"></span> ЛИБЕРАЛЬНЫЕ СМИ</div>
+<div class="t">SCMP: «Каждая неделя без саммита даёт новым раздражителям время накапливаться» (<a href="https://www.scmp.com/news/us/article/3349312/only-virtual-talks-no-new-investment-push-xi-trump-summit-greer" target="_blank">SCMP, 08.04</a>). Война в Иране разрушает цепочки поставок, критичные для Китая — 80%+ нефтеимпорта из региона.</div>
+</div>
+</div>
+
+<div class="c"><div class="ch">
+<span class="tg tg-h">горячее</span>
+<h3>Глобальное топливное нормирование: от Филиппин до Австралии</h3>
+<div class="sr">Источники: <a href="https://time.com/article/2026/04/05/strait-of-hormuz-fuel-rationing-oil/" target="_blank">Time, 05.04</a> · <a href="https://en.wikipedia.org/wiki/2026_Iran_war_fuel_crisis" target="_blank">Wikipedia</a></div>
+</div>
+<div class="sm">
+<strong>Обзор:</strong> Филиппины — первая страна, объявившая энергетическое ЧС (запасы до 30 июня) (<a href="https://en.wikipedia.org/wiki/2026_Iran_war_fuel_crisis" target="_blank">Wiki</a>). Бангладеш закрывает магазины к 18:00, сокращает часы госслужащих (<a href="https://time.com/article/2026/04/05/strait-of-hormuz-fuel-rationing-oil/" target="_blank">Time</a>). Китай: Sinopec и Rongsheng получили указание прекратить новые экспортные контракты (<a href="https://en.wikipedia.org/wiki/2026_Iran_war_fuel_crisis" target="_blank">Wiki</a>). Япония: 80 млн баррелей стратрезервов (<a href="https://en.wikipedia.org/wiki/2026_Iran_war_fuel_crisis" target="_blank">Wiki</a>). Австралия: PM Албанезе обратился к нации — «Не берите больше топлива, чем нужно» (<a href="https://time.com/article/2026/04/05/strait-of-hormuz-fuel-rationing-oil/" target="_blank">Time, 05.04</a>).
+</div>
+<div class="cm">
+<div class="cl"><span class="d d-i"></span> МЕЖДУНАРОДНЫЕ</div>
+<div class="t">Time: «Закрытие Ормуза привело к глобальному дефициту и чрезвычайным мерам от Европы до Азии» (<a href="https://time.com/article/2026/04/05/strait-of-hormuz-fuel-rationing-oil/" target="_blank">Time, 05.04</a>). Перемирие снимает часть давления, но восстановление трафика «займёт недели» (<a href="https://news.un.org/en/story/2026/04/1167270" target="_blank">UN News, 08.04</a>).</div>
+</div>
+</div>
+</div>
+
+<!-- ============ ОСТАЛЬНОЙ МИР ============ -->
+<div class="reg" id="r-world">
+<div class="rh">🌍 Остальной мир</div>
+
+<div class="c"><div class="ch">
+<span class="tg tg-i">важное</span>
+<h3>Пакистан — ключевой медиатор перемирия. Исламабад принимает первый раунд переговоров</h3>
+<div class="sr">Источники: <a href="https://www.aljazeera.com/news/2026/4/8/us-iran-ceasefire-deal-what-are-the-terms-and-whats-next" target="_blank">Al Jazeera, 08.04</a> · <a href="https://thesoufancenter.org/intelbrief-2026-april-8/" target="_blank">Soufan Center, 08.04</a></div>
+</div>
+<div class="sm">
+<strong>Обзор:</strong> Пакистанский премьер Шариф: «обе стороны проявили выдающуюся мудрость» (<a href="https://www.aljazeera.com/news/2026/4/8/us-iran-ceasefire-deal-what-are-the-terms-and-whats-next" target="_blank">AJ, 08.04</a>). Soufan Center: «ключевым посредником стал командующий сухопутными войсками Пакистана Мунир, поддерживающий тесные связи с КСИР» (<a href="https://thesoufancenter.org/intelbrief-2026-april-8/" target="_blank">Soufan, 08.04</a>). Египет, Пакистан и Турция — каналы коммуникации (<a href="https://www.cnn.com/2026/04/05/world/live-news/iran-war-us-trump-oil" target="_blank">CNN, 05.04</a>). Макрон: перемирие должно включать Ливан (<a href="https://www.cbsnews.com/live-updates/iran-trump-ceasefire-strait-hormuz-israel-war-hezbollah-continues/" target="_blank">CBS, 08.04</a>). ≥15 стран работают с Ираном над открытием Ормуза (<a href="https://www.cbsnews.com/live-updates/iran-trump-ceasefire-strait-hormuz-israel-war-hezbollah-continues/" target="_blank">CBS</a>).
+</div>
+<div class="cm">
+<div class="cl"><span class="d d-i"></span> МЕЖДУНАРОДНЫЕ</div>
+<div class="t">Soufan: «способность медиаторов добиться двухнедельного перемирия — заметный успех. Но путь к урегулированию будет трудным, и нет гарантий, что перемирие продержится» (<a href="https://thesoufancenter.org/intelbrief-2026-april-8/" target="_blank">Soufan, 08.04</a>). Пошлина $2 млн за проход через Ормуз и требование прекратить удары по Хезболле — главные точки преткновения (<a href="https://thesoufancenter.org/intelbrief-2026-april-8/" target="_blank">Soufan</a>).</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<footer>
+<strong>Агрегатор иноСМИ</strong> · 09.04.2026 · Все ссылки ведут на оригинальные публикации иностранных СМИ.<br>
+Источники: Washington Post, Bloomberg, WSJ, Financial Times, NYT, Fox News, CNN, PBS, NBC, NPR, Al Jazeera, Reuters, Euronews, SCMP, Times of Israel, Axios, Kyiv Independent, ISW, Russia Matters, CFR, IEA, EU Commission, Soufan Center, Just Security, Time, BBC, Economist и др.
+</footer>
+
+<script>
+function sh(id){
+document.querySelectorAll('.reg').forEach(r=>r.classList.remove('on'));
+document.querySelectorAll('.tb button').forEach(b=>b.classList.remove('on'));
+document.getElementById('r-'+id).classList.add('on');
+event.target.classList.add('on');
+window.scrollTo({top:document.querySelector('.w').offsetTop-50,behavior:'smooth'});
+}
+</script>
+</body>
+</html>
